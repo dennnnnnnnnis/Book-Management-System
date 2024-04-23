@@ -9,4 +9,6 @@ Note that this is only a starting phase of the website, currently APIs are succe
 The repository will be occasionally updated if I have time to finish the rest of the development (to make it a nicer and better website), but for now, the main purpose is the acknowledgement of able to develop under Flask framework as well.
 
 # Instructions
-The instructions of running the website is still TBC...
+To run the website, make sure you have npm installed and all related flask libraries installed, then try `npm start`
+
+The website should look like this ![ta-da!](https://github.com/dennnnnnnnnis/Book-Management-System/issues/1#issue-2257966221)
