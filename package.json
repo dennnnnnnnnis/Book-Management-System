@@ -1,0 +1,18 @@
+{
+  "name": "book-management-system",
+  "version": "1.0.0",
+  "description": "Brief implementation of a book management system website using Flask + Vue3",
+  "main": "index.js",
+  "scripts": {
+    "start-flask": "cd flask-demo-project && flask --app app run",
+    "start-vue": "cd vue3-book-project && npm run dev",
+    "start": "concurrently \"npm run start-flask\" \"npm run start-vue\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
